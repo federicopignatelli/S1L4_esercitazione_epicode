@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(assets/sfondo.png);
+    background-size: 150%;
+    background-position: center;
+}
+
+h2 {
+    font-size: 1.3em;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.3em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.6em;
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+li {
+    font-size: 1.2em;
+}
+
+a {
+    color: #1290b6;
+}
+
+iframe {
+    width: 400px;
+    height: 310px;
+}
+
+input {
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 1em;
+
+}
+
+input[type=email] {
+    border-bottom: dashed rgb(91, 102, 110);
+    width: 70%;
+}
+
+input[type=submit] {
+    border: none;
+    color: #fff;
+    background-color: #4f56c4;
+    width: 25%;
+}
+
+.container {
+    display: flex;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1em auto;
+}
+
+#logo {
+    background-image: url(assets/logo.svg);
+    height: 5em;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 2em;
+}
+
+.scritteviola {
+    color: rgb(144, 12, 161);
+    font-weight: 700;
+}
+
+.bordertext {
+    border: 1px solid #a8a8a8;
+    border-radius: 7px 7px;
+    background-color: #e0e0e0;
+}
+
+.boxblu {
+    background-color: rgb(15, 134, 155);
+    padding: 10%;
+    margin: 0.6em 1em;
+    box-sizing: border-box;
+    width: 90%;
+    box-shadow: 1px 2px 6px rgb(32, 32, 32);
+}
+
+.box {
+    background-color: #fff;
+    padding: 4%;
+    margin: 0.6em 1em;
+    box-sizing: border-box;
+    width: 90%;
+    box-shadow: 1px 2px 6px rgb(126, 126, 126);
+}
+
+.didascalia {
+    color: darkgrey;
+    font-size: 1.1em;
+}
+
+.italictitle {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.greybox {
+    background-color: #dbdbdb;
+    padding: 5%;
+    margin: 1em auto;
+    box-sizing: border-box;
+    width: 99%;
+}
